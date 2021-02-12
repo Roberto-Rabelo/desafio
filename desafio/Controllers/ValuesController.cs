@@ -50,7 +50,7 @@ namespace desafio.Controllers
 
 
             }
-            listacovid.OrderByDescending;
+            listacovid.Take(10).OrderBy();
 
             return ViewResult("listaRank",listacovid);
         }

@@ -3,5 +3,41 @@
 <h1>Exibir Lista de  COVID 19</h1>
 @foreach (var item in Model)
 {
-    <h1>incluir tabela aqui mais não deu tempo </h1>
+    <h1>listagem</h1>
+    <table class="table">
+
+        <tbody>
+            <tr>
+                <th scope="col">@Html.DisplayFor(modelItem => item.id)</th>
+            </tr>
+            <tr>
+                <th scope="col">@Html.DisplayFor(modelItem => item.country)</th>
+
+            </tr>
+            <tr>
+                <th scope="col">@Html.DisplayFor(modelItem => item.countryCode)</th>
+
+            </tr>
+            <tr>
+                <th scope="col">@Html.DisplayFor(modelItem => item.newConfirmed)</th>
+
+            </tr>
+            <tr>
+                <th scope="col">@Html.DisplayFor(modelItem => item.totalcomfirmed)</th>
+
+            </tr>
+            <tr>
+                <th scope="col">@Html.DisplayFor(modelItem => item.NewDeaths)</th>
+
+            </tr>
+            <tr>
+                <th scope="col">@Html.DisplayFor(modelItem => item.totalrecovered)</th>
+
+            </tr>
+            <tr>
+                <th scope="col">@Html.DisplayFor(modelItem => item.Date)</th>
+
+            </tr>
+        </tbody>
+    </table>
 }

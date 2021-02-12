@@ -8908,11 +8908,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\source\\repos\\desafio\\desafio\\desafio.csproj",
+      "projectUniqueName": "C:\\Users\\pc\\Desktop\\desafio\\desafio\\desafio\\desafio.csproj",
       "projectName": "desafio",
-      "projectPath": "C:\\Users\\pc\\source\\repos\\desafio\\desafio\\desafio.csproj",
+      "projectPath": "C:\\Users\\pc\\Desktop\\desafio\\desafio\\desafio\\desafio.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc\\source\\repos\\desafio\\desafio\\obj\\",
+      "outputPath": "C:\\Users\\pc\\Desktop\\desafio\\desafio\\desafio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
